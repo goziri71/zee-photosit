@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.landing-image {
+    padding: 9rem 0.5rem 0rem 0.5rem;
+    columns: 4 200px;
+}
+
+.single-image {
+    background-color: rgb(218, 219, 219);
+    margin: 0px 0px 5px 0px;
+}
+
+.price-tage {
+    background-color: rgba(233, 99, 99, 0.929);
+    width: 18%;
+    color: #fff;
+    padding: 5px;
+}
