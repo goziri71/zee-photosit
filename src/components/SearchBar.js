@@ -3,6 +3,7 @@ import { useState } from "react";
 
 function SearchBar({ onSubmit }) {
     const [ term, setTerm ] = useState('');
+    const [bordercolor, setBorderColor] = useState('#fff');
 
     const handleForm = (event) => {
         event.preventDefault();
@@ -15,12 +16,15 @@ function SearchBar({ onSubmit }) {
         setTerm(event.target.value)
     }
 
+    const handleDesign = () => {
+        setBorderColor("#000000")
+    }
+
     return (
         <div className='search-head'>
             <div className='search-bar'>
-            <label>Enter Search Term</label>
                 <form onSubmit={handleForm}>
-                    <input onChange={handleChnage} value=   {term} />
+                    <input onChange={handleChnage} onClick={handleDesign} value={term} placeholder='Search photos and illustrations' />
                     <button type='submit'>Search</button>
                 </form>
             </div>

@@ -1,16 +1,16 @@
 .search-head {
     background-color: rgb(184, 184, 184);
-    padding: 8px;
+    padding: 12px;
     position: fixed;
     width: 100%;
-    box-shadow: #141414 0px 0px 10px 1px;
+    box-shadow: #3e3e3e 0px 0px 10px 1px;
 }
 
 .search-bar {
     border: 2px solid rgb(220, 220, 220);
     border-radius: 5px;
-    padding: 4px;
-    width: 30%;
+    padding: 6px;
+    width: 70%;
     
 }
 
@@ -21,10 +21,11 @@
 
 form input {
     border-radius: 50px 0px 0px 50px;
-    padding: 5px;
+    padding: 10px;
     border: none;
     background-color: rgb(232, 241, 249);
     width: 100%;
+    font-size: 0.9rem;
 }
 
 form button {
