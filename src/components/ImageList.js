@@ -2,6 +2,7 @@ import '../css/ImageList.css';
 import ImageShow from "./ImageShow";
 
 function ImageList({images}) {
+    
     if(!images){
         window.location.reload()
     }
